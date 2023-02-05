@@ -1,0 +1,32 @@
+.Footer{
+    position: relative;
+    top:95vh;
+    padding: 20px;
+    .Footer-body{
+    height: 40vh;
+    border-radius: 15px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    .Footer-body-contact-header{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .Footer-body-items{
+        display: flex;
+        align-items: center;
+        
+        list-style: none;
+        padding: 0;
+        margin: 10px;
+        span{
+            margin-left:10px;
+        }
+        
+    }
+   
+
+    }    
+}

@@ -1,0 +1,73 @@
+.navBar{
+    margin: 10px 20px 0px 20px ;
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;;
+    align-items: center;
+    justify-content: space-between;
+    background-color:darkgray;
+    height:50px;
+    z-index: 999;
+    font-size:1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;    
+    width: 96%;
+    span{
+        cursor: pointer;
+    }
+    .navBar-left{
+        width: 35%;
+        display: flex;
+        justify-content: space-around;
+        .navBar-menu{
+            &:hover{
+                .navBar-menu-options{
+                    padding:20px;
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    z-index: 999;
+                    top: 45px;
+                    background-color:lightgray;
+                    border-radius: 15px;
+                   .navBar-menu-Title{
+                       .navBar-menu-items{
+                           display: none;
+                       }
+                       &:hover{
+                        .navBar-menu-items{
+                            display:flex;
+                            flex-direction: column;
+                            z-index: 999;
+                            border-radius: 15px;
+                            padding: 10px;
+                            padding-left:30px;
+                            position: relative;
+                            background-color:darkgray;
+                            text-align: left;
+                        }
+                       }
+                   }   
+                }
+                }
+            .navBar-menu-options{
+                display: none;
+            }
+        }
+    }
+    .navBar-right{
+        width: 35%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navBar-middle{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        .navBar-logo{
+            color:darkcyan;
+            font-size:28px;
+        }
+    }
+}

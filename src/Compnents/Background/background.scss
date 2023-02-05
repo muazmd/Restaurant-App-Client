@@ -1,0 +1,37 @@
+.Background{
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:40px;
+    text-align: center;
+    display:flex;
+    position: relative;
+    top:10vh;
+    // left:30vw;
+  
+    justify-content:center;
+    align-items:center;
+    .curousel{
+        width: 98%;
+        position: absolute;
+        top: 10px;
+        z-index: 1;
+        img{
+        border-radius: 15px;
+        height: 700px;
+
+        }
+    }
+    .Typewriter__wrapper {
+        z-index: 2;
+        position: absolute;
+        font-weight: 900;
+        font-size: 42px;
+        top: 35vh;
+        left: 30vw;
+        color: whitesmoke;
+  
+    }
+    .Typewriter__cursor {
+display: none;
+    }
+}
